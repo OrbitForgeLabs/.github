@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">OrbitForgeLabs</title>
+  <desc id="desc">OrbitForgeLabs — independent software engineering and product development.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071321"/>
+      <stop offset="0.55" stop-color="#0A1C31"/>
+      <stop offset="1" stop-color="#10172D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5EEAD4"/>
+      <stop offset="0.52" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#38BDF8" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#818CF8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="45%" r="55%">
+      <stop offset="0" stop-color="#2563EB" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#9AB8D8" stroke-opacity=".075" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" rx="26" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="26" fill="url(#glow)"/>
+  <rect width="1280" height="360" rx="26" fill="url(#grid)"/>
+  <path d="M0 286H1280" stroke="url(#line)" stroke-width="1"/>
+  <path d="M0 72H1280" stroke="url(#line)" stroke-width="1" opacity=".35"/>
+
+  <g transform="translate(82 86)">
+    <circle cx="78" cy="78" r="66" fill="none" stroke="#5EEAD4" stroke-opacity=".22" stroke-width="1.5"/>
+    <ellipse cx="78" cy="78" rx="66" ry="25" fill="none" stroke="url(#accent)" stroke-width="3" transform="rotate(-34 78 78)"/>
+    <ellipse cx="78" cy="78" rx="66" ry="25" fill="none" stroke="#60A5FA" stroke-opacity=".55" stroke-width="1.5" transform="rotate(48 78 78)"/>
+    <circle cx="78" cy="78" r="19" fill="#0B2238" stroke="url(#accent)" stroke-width="2"/>
+    <path d="M68 86V69L78 79L88 69V86" fill="none" stroke="#E0F2FE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="130" cy="38" r="5" fill="#5EEAD4"/>
+    <circle cx="24" cy="108" r="4" fill="#818CF8"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="270" y="145" fill="#F8FAFC" font-size="52" font-weight="750" letter-spacing="1.5">OrbitForgeLabs</text>
+    <rect x="272" y="169" width="90" height="4" rx="2" fill="url(#accent)"/>
+    <text x="272" y="211" fill="#C6D7E8" font-size="19" font-weight="600" letter-spacing="3.6">ENGINEERING WITH INTENTION</text>
+    <text x="272" y="250" fill="#91A8C0" font-size="17" font-weight="400">Thoughtful software. Practical products. Reliable foundations.</text>
+  </g>
+
+  <g transform="translate(930 180)" fill="none" stroke-linecap="round">
+    <circle r="128" stroke="#60A5FA" stroke-opacity=".14" stroke-width="1.5"/>
+    <circle r="100" stroke="#5EEAD4" stroke-opacity=".24" stroke-width="1.5" stroke-dasharray="3 10"/>
+    <ellipse rx="142" ry="57" stroke="url(#accent)" stroke-opacity=".8" stroke-width="2.2" transform="rotate(-28)"/>
+    <ellipse rx="142" ry="57" stroke="#818CF8" stroke-opacity=".48" stroke-width="1.5" transform="rotate(54)"/>
+    <path d="M-175 0H175M0 -155V155" stroke="#7DD3FC" stroke-opacity=".12" stroke-width="1"/>
+    <circle cx="104" cy="-89" r="6" fill="#5EEAD4" stroke="none"/>
+    <circle cx="-132" cy="49" r="4" fill="#818CF8" stroke="none"/>
+    <circle cx="22" cy="141" r="3.5" fill="#38BDF8" stroke="none"/>
+    <circle r="13" fill="#102D47" stroke="url(#accent)" stroke-width="2"/>
+  </g>
+
+  <g fill="#A5C7E8" opacity=".55">
+    <circle cx="1180" cy="64" r="2"/><circle cx="1210" cy="92" r="1.5"/>
+    <circle cx="1140" cy="276" r="2"/><circle cx="104" cy="302" r="1.5"/>
+    <circle cx="210" cy="54" r="1.5"/><circle cx="672" cy="308" r="1.5"/>
+  </g>
+  <text x="82" y="326" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#7F9AB5" letter-spacing="2.6">INDEPENDENT SOFTWARE DEVELOPMENT</text>
+  <text x="1198" y="326" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" fill="#7F9AB5" letter-spacing="2.2">BUILD • LEARN • REFINE</text>
+</svg>
