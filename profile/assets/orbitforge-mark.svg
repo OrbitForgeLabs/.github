@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">OrbitForgeLabs mark</title>
+  <desc id="desc">A connected orbital mark with an OF monogram.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071321"/><stop offset="1" stop-color="#111B35"/></linearGradient>
+    <linearGradient id="orbit" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#5EEAD4"/><stop offset=".52" stop-color="#38BDF8"/><stop offset="1" stop-color="#818CF8"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#2563EB" stop-opacity=".35"/><stop offset="1" stop-color="#2563EB" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="214" fill="url(#halo)"/>
+  <circle cx="256" cy="256" r="176" fill="none" stroke="#7DD3FC" stroke-opacity=".14" stroke-width="3"/>
+  <ellipse cx="256" cy="256" rx="190" ry="74" fill="none" stroke="url(#orbit)" stroke-width="14" transform="rotate(-34 256 256)"/>
+  <ellipse cx="256" cy="256" rx="190" ry="74" fill="none" stroke="#818CF8" stroke-opacity=".8" stroke-width="7" transform="rotate(53 256 256)"/>
+  <circle cx="404" cy="146" r="16" fill="#5EEAD4"/>
+  <circle cx="100" cy="330" r="11" fill="#818CF8"/>
+  <circle cx="256" cy="256" r="110" fill="#0C2035" stroke="#60A5FA" stroke-opacity=".6" stroke-width="3"/>
+  <text x="256" y="283" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="78" font-weight="800" letter-spacing="-6" fill="#F8FAFC">OF</text>
+</svg>
