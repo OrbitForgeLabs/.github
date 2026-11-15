@@ -37,7 +37,7 @@
     <ellipse cx="78" cy="78" rx="66" ry="25" fill="none" stroke="url(#accent)" stroke-width="3" transform="rotate(-34 78 78)"/>
     <ellipse cx="78" cy="78" rx="66" ry="25" fill="none" stroke="#60A5FA" stroke-opacity=".55" stroke-width="1.5" transform="rotate(48 78 78)"/>
     <circle cx="78" cy="78" r="19" fill="#0B2238" stroke="url(#accent)" stroke-width="2"/>
-    <path d="M68 86V69L78 79L88 69V86" fill="none" stroke="#E0F2FE" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="78" y="86" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="-1" fill="#E0F2FE">OF</text>
     <circle cx="130" cy="38" r="5" fill="#5EEAD4"/>
     <circle cx="24" cy="108" r="4" fill="#818CF8"/>
   </g>
